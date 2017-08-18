@@ -16,6 +16,7 @@ setup(
     zip_safe=False,
     packages=find_packages(),
     install_requires=(
+        'Django>=1.11',
         'graphql-py>=0.6',
     ),
     setup_requires=(
